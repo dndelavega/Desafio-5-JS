@@ -1,0 +1,68 @@
+containerPrincipal{
+    margin: 8px;
+    padding: 16px;
+}
+
+.containerSecundario{
+    display: grid;
+    grid-template-areas: 
+        'inputButton inputButton inputButton'
+        'containerContador . templateTareas '
+    ;
+}
+
+.inputButton{
+    grid-area: inputButton;
+}
+
+#containerContador{
+    grid-area: containerContador;
+    color: rgb(8, 52, 25);
+}
+
+#templateTareas{
+    grid-area: templateTareas;
+}
+
+.containerPrincipal h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#containerAuxiliar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#containerContador p{
+    margin: 0px;
+    font-size: small;
+}
+
+#containerContador p span{
+    margin: 0px;
+    font-size: small;
+    font-weight: bold;
+    color: rgb(42, 44, 165);
+}
+
+#indicadorInitial{
+    margin-bottom: 0px;
+}
+
+#templateTareas th {
+    padding-left: 8px ;
+    padding-right: 8px;
+    padding-bottom: 8px;
+}
+
+#templateTareas td {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 1px;
+}
+
+#templateTareas table i {
+    color: red;
+}
